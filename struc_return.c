@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+#ifdef DMALLOC
 #include <dmalloc.h>
-
+#endif
 typedef struct _ob_status{
 	char neighmac[20];
 	int obstatus;
