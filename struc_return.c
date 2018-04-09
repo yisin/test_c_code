@@ -8,7 +8,7 @@
 
 typedef struct _ob_status{
 	char neighmac[20];
-	int obstatus; 		//1 (OB_OFF),  2 (OB_Available), 3 (OB_REQ), 4 (OB_LOCKED), 5 (OB_SUCCESS)
+	int obstatus;
 }ob_status,*ptr_obstatus;
 
 
