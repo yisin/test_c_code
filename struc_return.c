@@ -4,8 +4,6 @@
 
 #include <dmalloc.h>
 
-
-
 typedef struct _ob_status{
 	char neighmac[20];
 	int obstatus;
@@ -26,10 +24,6 @@ int test(ob_status **P1, int *value) {
 
 	memcpy(Pobstatus[0].neighmac, "11:22:33:44:55:66", sizeof(Pobstatus[0].neighmac));
 
-	//*P1 = (struct _ob_status *)malloc(2 *sizeof(struct _ob_status));
-	//memset(P1, 0x0A, sizeof(P1));	
-	//P = Pobstatus;
-	//P1 = &Pobstatus;
 	*value = 123;
 
 	printf("P1 = %p,Pobstatus= %p, Pobstatus[0].neighmac[0] = %02X\n", &(*P1), &Pobstatus, Pobstatus[0].neighmac[0]);
@@ -43,7 +37,7 @@ int main() {
 	int value = 0;
 	
 	test(&P1, &value);
-	//P1 = P;
+
 	printf("P1 = %p, test = %d, P1[0].neighmac[0] = %02X\n", &P1, value, P1[0].neighmac[0]);
 	if (P1 != NULL) {
 		printf("release memory\n");
