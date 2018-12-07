@@ -1,0 +1,31 @@
+1523256998: 1: Dmalloc version '5.5.2' from 'http://dmalloc.com/'
+1523256998: 1: flags = 0x4e48503, logfile './logfile.txt'
+1523256998: 1: interval = 100, addr = 0, seen # = 0, limit = 0
+1523256998: 1: threads enabled, lock-on = 0, lock-init = 2
+1523256998: 1: starting time = 1523256998
+1523256998: 1: process pid = 8301
+1523256998: 1: Dumping Chunk Statistics:
+1523256998: 1: basic-block 4096 bytes, alignment 8 bytes
+1523256998: 1: heap address range: 0x7f29e7f89000 to 0x7f29e7f91000, 32768 bytes
+1523256998: 1:     user blocks: 1 blocks, 4080 bytes (12%)
+1523256998: 1:    admin blocks: 7 blocks, 28672 bytes (87%)
+1523256998: 1:    total blocks: 8 blocks, 32768 bytes
+1523256998: 1: heap checked 1
+1523256998: 1: alloc calls: malloc 1, calloc 0, realloc 0, free 0
+1523256998: 1: alloc calls: recalloc 0, memalign 0, posix_memalign 0, valloc 0
+1523256998: 1: alloc calls: new 0, delete 0
+1523256998: 1:   current memory in use: 48 bytes (1 pnts)
+1523256998: 1:  total memory allocated: 48 bytes (1 pnts)
+1523256998: 1:  max in use at one time: 48 bytes (1 pnts)
+1523256998: 1: max alloced with 1 call: 48 bytes
+1523256998: 1: max unused memory space: 16 bytes (25%)
+1523256998: 1: top 10 allocations:
+1523256998: 1:  total-size  count in-use-size  count  source
+1523256998: 1:          48      1          48      1  struc_return.c:22
+1523256998: 1:          48      1          48      1  Total of 1
+1523256998: 1: Dumping Not-Freed Pointers Changed Since Start:
+1523256998: 1:  not freed: '0x7f29e7f90fc8|s1' (48 bytes) from 'struc_return.c:22'
+1523256998: 1:  total-size  count  source
+1523256998: 1:          48      1  struc_return.c:22
+1523256998: 1:          48      1  Total of 1
+1523256998: 1: ending time = 1523256998, elapsed since start = 0:00:00
